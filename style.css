@@ -137,6 +137,26 @@ fieldset legend {
   gap: 10px;
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator {
+/* input[type="date"]::-webkit-calendar-picker-indicator {
   display: none;
+} */
+
+/* FOOTER */
+footer {
+  background-color: var(--blue-color);
+  text-align: center;
+  height: 160px;
+  padding: 50px 70px;
+  margin-bottom: 360px;
+}
+
+footer input {
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  color: white;
+
+  padding: 15px 280px;
+  background-color: var(--pink-bg);
+  border-radius: 20px;
 }
