@@ -130,3 +130,13 @@ fieldset legend {
   display: flex;
   gap: 32px;
 }
+
+.time-wrapper {
+  flex-basis: 290px;
+  display: flex;
+  gap: 10px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
